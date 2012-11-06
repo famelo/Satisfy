@@ -241,12 +241,12 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:famelo/adu.git",
-                "reference": "24cfc4f025e6bebbb35357ff43308d3149e21e9e"
+                "reference": "9b4303db3fd5a18da2f45358b9c7484ffa1e7beb"
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1352198135",
+            "time": "1352214107",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
