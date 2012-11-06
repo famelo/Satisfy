@@ -9,7 +9,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://mneuhaus@bitbucket.org/famelo/adu.git"
+            "url": "git@bitbucket.org:famelo/adu.git"
         }
     ],
     "config": {
