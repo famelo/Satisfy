@@ -6,6 +6,10 @@
         {
             "type": "composer",
             "url": "http://ci.typo3.robertlemke.net/job/composer-packages/ws/repository/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://mneuhaus@bitbucket.org/famelo/adu.git"
         }
     ],
     "config": {
