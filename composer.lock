@@ -1,5 +1,5 @@
 {
-    "hash": "1b79bb704acebdd299e9d5461420d729",
+    "hash": "ba9da6efb061c856ca669a5317570c73",
     "packages": [
         {
             "name": "doctrine/common",
@@ -236,23 +236,43 @@
             ]
         },
         {
+            "name": "famelo/adu",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:famelo/adu.git",
+                "reference": "24cfc4f025e6bebbb35357ff43308d3149e21e9e"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "time": "1352198135",
+            "type": "typo3-flow-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\ADU": "Classes"
+                }
+            }
+        },
+        {
             "name": "famelo/scaff",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Scaff",
-                "reference": "0decbf4207f212a1f8237fe55651625bd6c9a14a"
+                "reference": "ff39c3e28a7960211c27bea1bf9a5f95f044da3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/mneuhaus/Famelo.Scaff/zipball/0decbf4207f212a1f8237fe55651625bd6c9a14a",
-                "reference": "0decbf4207f212a1f8237fe55651625bd6c9a14a",
+                "url": "https://github.com/mneuhaus/Famelo.Scaff/archive/ff39c3e28a7960211c27bea1bf9a5f95f044da3e.zip",
+                "reference": "ff39c3e28a7960211c27bea1bf9a5f95f044da3e",
                 "shasum": ""
             },
             "require": {
                 "typo3/flow": "*"
             },
-            "time": "1350517526",
+            "time": "1352212484",
             "type": "typo3-flow-package",
             "installation-source": "source",
             "autoload": {
@@ -636,6 +656,7 @@
         "typo3/flow": 20,
         "typo3/expose": 20,
         "typo3/kickstart": 20,
+        "famelo/adu": 20,
         "famelo/scaff": 20,
         "typo3/buildessentials": 20,
         "debug/toolbar": 20,

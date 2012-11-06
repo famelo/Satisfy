@@ -1,7 +1,7 @@
 #
 # TYPO3 Flow context setting
 #
- 
+
 # You can specify a default context by activating this option:
 # SetEnv FLOW_CONTEXT Production
 
