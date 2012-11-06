@@ -7,3 +7,8 @@
 # Please refer to the default settings file(s) or the manuals for        #
 # possible configuration options.                                        #
 #                                                                        #
+
+TYPO3:
+  TypoScript:
+    debugMode: FALSE
+    catchRuntimeExceptions: FALSE

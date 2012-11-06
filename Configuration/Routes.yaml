@@ -15,7 +15,7 @@
   uriPattern: ''
   defaults:
     '@format': 'html'
-    '@package': 'Famelo.Scaff'
+    '@package': 'Famelo.ADU'
 
 -
   name: 'Flow'

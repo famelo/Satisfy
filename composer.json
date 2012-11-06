@@ -1,6 +1,6 @@
 {
-    "name": "typo3/phoenix-base-distribution",
-    "description" : "Phoenix Base Distribution",
+    "name": "famelo/distribution-adu",
+    "description" : "Customer Satisfaction Management",
     "license": "GPL-3.0+",
     "repositories": [
         {
@@ -16,7 +16,6 @@
         "typo3/flow": "dev-master",
         "typo3/expose": "dev-master",
         "typo3/kickstart": "dev-master",
-        "famelo/demo-admin": "dev-master",
         "famelo/scaff": "dev-master"
     },
     "require-dev": {
@@ -24,8 +23,7 @@
         "mikey179/vfsstream": "1.1.*",
         "debug/toolbar": "dev-master",
         "typo3/surf": "dev-master",
-        "famelo/surf-sharedhosting": "dev-master",
-        "sandstorm/plumber": "dev-master"
+        "famelo/surf-sharedhosting": "dev-master"
     },
     "minimum-stability": "dev",
     "scripts": {
