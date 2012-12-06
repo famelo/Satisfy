@@ -9,7 +9,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@bitbucket.org:famelo/adu.git"
+            "url": "git@github.com:mneuhaus/Famelo.ADU.git"
         }
     ],
     "config": {
@@ -24,14 +24,17 @@
         "famelo/scaff": "dev-master",
         "famelo/gerrit": "*",
         "famelo/faces": "*",
-        "mrimann/xlifftranslator": "*"
+        "mrimann/xlifftranslator": "*",
+        "community/pjax": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
         "mikey179/vfsstream": "1.1.*",
         "debug/toolbar": "dev-master",
         "typo3/surf": "dev-master",
-        "famelo/surf-sharedhosting": "dev-master"
+        "famelo/surf-sharedhosting": "dev-master",
+        "famelo/poltergeist": "*",
+        "sandstorm/plumber": "*"
     },
     "minimum-stability": "dev",
     "scripts": {

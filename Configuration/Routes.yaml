@@ -33,11 +33,11 @@
   appendExceedingArguments: true
 
 -
-  name: 'Home'
-  uriPattern: ''
-  defaults:
-    '@format': 'html'
-    '@package': 'Famelo.ADU'
+  name: 'ADU'
+  uriPattern: '<ADUSubroutes>'
+  subRoutes:
+    ADUSubroutes:
+      package: Famelo.ADU
 
 -
   name: 'Flow'
