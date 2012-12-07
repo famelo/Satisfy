@@ -27,7 +27,8 @@
         "mrimann/xlifftranslator": "*",
         "community/pjax": "*",
         "typo3/swiftmailer": "*",
-        "community/cacheextensions": "*"
+        "community/cacheextensions": "*",
+        "typo3/setup": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
