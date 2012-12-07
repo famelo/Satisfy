@@ -28,7 +28,9 @@
         "community/pjax": "*",
         "typo3/swiftmailer": "*",
         "community/cacheextensions": "*",
-        "typo3/setup": "*"
+        "typo3/setup": "*",
+        "fzaninotto/faker": "*",
+        "famelo/navigation": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
