@@ -26,7 +26,8 @@
         "famelo/faces": "*",
         "mrimann/xlifftranslator": "*",
         "community/pjax": "*",
-        "typo3/swiftmailer": "*"
+        "typo3/swiftmailer": "*",
+        "community/cacheextensions": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
