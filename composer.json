@@ -30,7 +30,8 @@
         "community/cacheextensions": "*",
         "typo3/setup": "*",
         "fzaninotto/faker": "*",
-        "famelo/navigation": "*"
+        "famelo/navigation": "*",
+        "famelo/scheduler": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
