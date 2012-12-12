@@ -8,6 +8,7 @@
 		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394"
 	},
 	"TYPO3.Fluid": {
-		"[FEATURE] Add various Setters to override Paths and Patterns": "16393"
+		"[FEATURE] Add various Setters to override Paths and Patterns": "16393",
+		"[BUGFIX] Allow one of action and actionUri to be omitted in Form ViewHelper": "17107"
 	}
 }

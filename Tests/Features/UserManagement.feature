@@ -4,11 +4,7 @@ Feature:
   I need to be to create, update and delete users
 
   Scenario: Login
-    When I am on homepage
-    Then I should see an ".form-signin" element
-    When I fill in "__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]" with "mneuhaus"
-    And fill in "__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]" with "tigger"
-    And press "Login"
+    Given I log in as "toni" with the password "wrong-password"
     Then I should see an ".off-canvas" element
 
   Scenario: Let's create a new User
