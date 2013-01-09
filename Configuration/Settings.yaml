@@ -10,8 +10,8 @@
 
 TYPO3:
   TypoScript:
-    debugMode: FALSE
-    catchRuntimeExceptions: FALSE
+    debugMode: false
+    catchRuntimeExceptions: false
   Flow:
     persistence:
       backendOptions:
@@ -19,15 +19,18 @@ TYPO3:
         dbname: flow-adu
         user: main
         password: main
-
+    core:
+      phpBinaryPathAndFilename: /usr/bin/php
+    session:
+      inactivityTimeout: 9999999
+    security:
+        filters: []
 Sandstorm:
   Plumber:
-    # should we enable profiling, or just use Plumber as frontend for visualizing
-    # profiling runs collected by other profiling collectors (such as the TYPO3 extension)
     enableProfiling: true
     calculations:
       navigationViewHelper:
-        label: 'NavigationViewHelper'
+        label: NavigationViewHelper
         type: regex
         regex: '#Famelo\\Navigation\\ViewHelpers\\NavigationViewHelper::render#'
         metric: time
