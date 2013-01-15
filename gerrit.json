@@ -5,7 +5,8 @@
 		"[FEATURE] Add Annotation overriding to the ReflectionService": "13549"
 	},
 	"TYPO3.TypoScript": {
-		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394"
+		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394",
+		"[FEATURE] Allow Processors to be unset": "17551"
 	},
 	"TYPO3.Fluid": {
 		"[FEATURE] Add various Setters to override Paths and Patterns": "16393",
