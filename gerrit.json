@@ -1,8 +1,6 @@
 {
 	"TYPO3.Flow": {
-		"[FEATURE] Allow custom custom configuration files in ConfigurationManager": "11982",
-		"[WIP][FEATURE] Improve resolving of view": "16392",
-		"[FEATURE] Add Annotation overriding to the ReflectionService": "13549"
+		"[WIP][FEATURE] Improve resolving of view": "16392"
 	},
 	"TYPO3.TypoScript": {
 		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394",
@@ -10,6 +8,6 @@
 	},
 	"TYPO3.Fluid": {
 		"[FEATURE] Add various Setters to override Paths and Patterns": "16393",
-		"[BUGFIX] Allow one of action and actionUri to be omitted in Form ViewHelper": "17107"
+		"[FEATURE] Allow f:link.action to operate on parent request": "18045"
 	}
 }

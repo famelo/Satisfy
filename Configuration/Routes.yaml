@@ -40,6 +40,13 @@
       package: Famelo.ADU
 
 -
+  name: 'Famelo.Features'
+  uriPattern: '<FeatureSubroutes>'
+  subRoutes:
+    FeatureSubroutes:
+      package: Famelo.Features
+
+-
   name: 'Flow'
   uriPattern: '<FlowSubroutes>'
   subRoutes:
