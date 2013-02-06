@@ -21,11 +21,8 @@
         "typo3/expose": "dev-master",
         "typo3/kickstart": "dev-master",
         "famelo/adu": "dev-master",
-        "famelo/scaff": "dev-master",
         "famelo/gerrit": "*",
-        "famelo/faces": "*",
         "mrimann/xlifftranslator": "*",
-        "community/pjax": "*",
         "typo3/swiftmailer": "*",
         "community/cacheextensions": "*",
         "typo3/setup": "*",
@@ -38,9 +35,7 @@
         "mikey179/vfsstream": "1.1.*",
         "debug/toolbar": "dev-master",
         "typo3/surf": "dev-master",
-        "famelo/surf-sharedhosting": "dev-master",
-        "famelo/poltergeist": "*",
-        "sandstorm/plumber": "*"
+        "famelo/surf-sharedhosting": "dev-master"
     },
     "minimum-stability": "dev",
     "scripts": {
