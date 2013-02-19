@@ -2,9 +2,6 @@
 	"TYPO3.Flow": {
 		"[WIP][FEATURE] Improve resolving of view": "16392"
 	},
-	"TYPO3.Expose": {
-		"[BUGFIX] Get the ContentTypeManager form the ObjectManager instead of injecting": "18058"
-	},
 	"TYPO3.TypoScript": {
 		"[FEATURE] Refactored the inclusion of TypoScriptPathPattern to support multiple paths": "16394",
 		"[FEATURE] Allow Processors to be unset": "17551"
