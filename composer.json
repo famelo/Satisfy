@@ -28,7 +28,9 @@
         "typo3/setup": "*",
         "fzaninotto/faker": "*",
         "famelo/navigation": "*",
-        "famelo/scheduler": "*"
+        "famelo/scheduler": "*",
+        "gChartPhp/gChartPhp": "*",
+        "sandstorm/plumber": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
