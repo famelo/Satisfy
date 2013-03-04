@@ -25,13 +25,3 @@ TYPO3:
       inactivityTimeout: 9999999
     security:
         filters: []
-Sandstorm:
-  Plumber:
-    enableProfiling: true
-    calculations:
-      navigationViewHelper:
-        label: NavigationViewHelper
-        type: regex
-        regex: '#Famelo\\Navigation\\ViewHelpers\\NavigationViewHelper::render#'
-        metric: time
-        subtype: sum
