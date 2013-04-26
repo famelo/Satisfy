@@ -16,7 +16,7 @@ TYPO3:
     persistence:
       backendOptions:
         host: 127.0.0.1
-        dbname: flow-adu
+        dbname: flow-adu-demo
         user: main
         password: main
     core:
@@ -25,3 +25,11 @@ TYPO3:
       inactivityTimeout: 9999999
     security:
         filters: []
+
+Famelo:
+  Satisfy:
+    E-Mails:
+      OverrideAll: 'mneuhau@famelo.com'
+
+  Messaging:
+    redirectAllMessagesTo: mneuhaus@famelo.com
