@@ -21,8 +21,6 @@
         "typo3/expose": "dev-master",
         "typo3/kickstart": "dev-master",
         "famelo/adu": "dev-master",
-        "famelo/gerrit": "*",
-        "mrimann/xlifftranslator": "*",
         "typo3/swiftmailer": "*",
         "community/cacheextensions": "*",
         "typo3/setup": "*",
@@ -30,12 +28,12 @@
         "famelo/navigation": "*",
         "famelo/scheduler": "*",
         "gChartPhp/gChartPhp": "*",
-        "sandstorm/plumber": "*"
+        "sandstorm/plumber": "*",
+        "famelo/features": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
         "mikey179/vfsstream": "1.1.*",
-        "debug/toolbar": "dev-master",
         "typo3/surf": "dev-master",
         "famelo/surf-sharedhosting": "dev-master"
     },

@@ -40,14 +40,7 @@
       package: Famelo.ADU
 
 -
-  name: 'Profiler'
-  uriPattern: 'profiler<ProfilerSubroutes>'
-  subRoutes:
-    ProfilerSubroutes:
-      package: Sandstorm.Plumber
-
--
-  name: 'Famelo.Features'
+  name: 'Features'
   uriPattern: '<FeatureSubroutes>'
   subRoutes:
     FeatureSubroutes:

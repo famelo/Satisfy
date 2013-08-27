@@ -13,23 +13,7 @@ TYPO3:
     debugMode: false
     catchRuntimeExceptions: false
   Flow:
-    persistence:
-      backendOptions:
-        host: 127.0.0.1
-        dbname: flow-adu-demo
-        user: main
-        password: main
-    core:
-      phpBinaryPathAndFilename: /usr/bin/php
     session:
       inactivityTimeout: 9999999
     security:
         filters: []
-
-Famelo:
-  Satisfy:
-    E-Mails:
-      OverrideAll: 'mneuhau@famelo.com'
-
-  Messaging:
-    redirectAllMessagesTo: mneuhaus@famelo.com
