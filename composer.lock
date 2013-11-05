@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "4b2a5d0575e1504f576bb78b1c17971d",
+    "hash": "8f49cf76a0bb96a51614f5e111cd52d1",
     "packages": [
         {
             "name": "community/cacheextensions",
@@ -110,13 +110,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/DavidBadura/Fixtures.git",
-                "reference": "40da77f04b08967245b2d15892835d625168c5d5"
+                "url": "https://github.com/mneuhaus/Fixtures.git",
+                "reference": "5dee551d9899ab15d53f605b9dff598a87741bf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DavidBadura/Fixtures/zipball/40da77f04b08967245b2d15892835d625168c5d5",
-                "reference": "40da77f04b08967245b2d15892835d625168c5d5",
+                "url": "https://api.github.com/repos/mneuhaus/Fixtures/zipball/5dee551d9899ab15d53f605b9dff598a87741bf2",
+                "reference": "5dee551d9899ab15d53f605b9dff598a87741bf2",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +147,6 @@
                     "DavidBadura\\Fixtures\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -169,7 +168,10 @@
                 "orm",
                 "yaml"
             ],
-            "time": "2013-06-22 19:05:00"
+            "support": {
+                "source": "https://github.com/mneuhaus/Fixtures/tree/master"
+            },
+            "time": "2013-11-05 16:29:18"
         },
         {
             "name": "doctrine/annotations",
@@ -650,16 +652,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "90f5c393b907ca9b46e507def43735de959b77fc"
+                "reference": "0f5a110a1e6ae413e425912e6601643f91b069c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/90f5c393b907ca9b46e507def43735de959b77fc",
-                "reference": "90f5c393b907ca9b46e507def43735de959b77fc",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/0f5a110a1e6ae413e425912e6601643f91b069c1",
+                "reference": "0f5a110a1e6ae413e425912e6601643f91b069c1",
                 "shasum": ""
             },
             "require": {
-                "doctrine/dbal": ">=2.0,<2.5.x-dev",
+                "doctrine/dbal": "~2.0",
                 "php": ">=5.3.2"
             },
             "require-dev": {
@@ -686,9 +688,10 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Benjamin Eberlei",
@@ -701,7 +704,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2013-10-23 14:44:19"
+            "time": "2013-11-03 20:54:43"
         },
         {
             "name": "doctrine/orm",
@@ -779,15 +782,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Common.git",
-                "reference": "59093aaf9c6a5777feb73eb0e6b78372d2b51581"
+                "reference": "ac8d2ec35aa383f1694ba0c018a886d3aecb6f70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/59093aaf9c6a5777feb73eb0e6b78372d2b51581",
-                "reference": "59093aaf9c6a5777feb73eb0e6b78372d2b51581",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/ac8d2ec35aa383f1694ba0c018a886d3aecb6f70",
+                "reference": "ac8d2ec35aa383f1694ba0c018a886d3aecb6f70",
                 "shasum": ""
             },
             "require": {
+                "davidbadura/fixtures": "*",
                 "typo3/flow": "*"
             },
             "type": "typo3-flow-package",
@@ -797,7 +801,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-10-31 10:10:22"
+            "time": "2013-11-05 14:49:21"
         },
         {
             "name": "famelo/features",
@@ -857,12 +861,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
-                "reference": "6e47056a724394196c7fb89937dc549ee0aa78ff"
+                "reference": "982da157c76ccdc0346cdfa6a255e03f1a8b94b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/6e47056a724394196c7fb89937dc549ee0aa78ff",
-                "reference": "6e47056a724394196c7fb89937dc549ee0aa78ff",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/982da157c76ccdc0346cdfa6a255e03f1a8b94b1",
+                "reference": "982da157c76ccdc0346cdfa6a255e03f1a8b94b1",
                 "shasum": ""
             },
             "require": {
@@ -876,7 +880,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-05-30 19:36:25"
+            "time": "2013-11-05 14:48:31"
         },
         {
             "name": "famelo/navigation",
@@ -910,16 +914,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "2fc311ec32d0d1405d2b9863a522e998d3251632"
+                "reference": "d86d97b6865617a4b6b8214077ceb8a8419328e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/2fc311ec32d0d1405d2b9863a522e998d3251632",
-                "reference": "2fc311ec32d0d1405d2b9863a522e998d3251632",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/d86d97b6865617a4b6b8214077ceb8a8419328e9",
+                "reference": "d86d97b6865617a4b6b8214077ceb8a8419328e9",
                 "shasum": ""
             },
             "require": {
-                "typo3/flow": "*"
+                "davidbadura/fixtures": "*",
+                "famelo/common": "*",
+                "famelo/impersonate": "*",
+                "famelo/messaging": "*",
+                "famelo/vodoo": "*",
+                "flowpack/behat": "*",
+                "leafo/lessphp": "*",
+                "leafo/scssphp": "*",
+                "twbs/bootstrap": "3.0.0",
+                "typo3/asset": "*",
+                "typo3/flow": "*",
+                "typo3/jobqueue-common": "*"
             },
             "type": "typo3-flow-package",
             "autoload": {
@@ -931,7 +946,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2013-10-31 10:14:51"
+            "time": "2013-11-05 16:39:47"
         },
         {
             "name": "famelo/scheduler",
@@ -1027,12 +1042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "15ec357497d9bd33076f18bec2293d9ac0fe53e7"
+                "reference": "9228b2aec28ff1c2730e8a07b29c896fdc2550cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/15ec357497d9bd33076f18bec2293d9ac0fe53e7",
-                "reference": "15ec357497d9bd33076f18bec2293d9ac0fe53e7",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/9228b2aec28ff1c2730e8a07b29c896fdc2550cd",
+                "reference": "9228b2aec28ff1c2730e8a07b29c896fdc2550cd",
                 "shasum": ""
             },
             "require": {
@@ -1065,7 +1080,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2013-10-29 09:52:28"
+            "time": "2013-11-03 21:14:43"
         },
         {
             "name": "gchartphp/gchartphp",
@@ -1393,12 +1408,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "eca72b22138f66f4244a3eddc18c7261cfcd130c"
+                "reference": "92cdb410d68c7b6ccb6eb38ad0ffe4e2d1cd9a2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/eca72b22138f66f4244a3eddc18c7261cfcd130c",
-                "reference": "eca72b22138f66f4244a3eddc18c7261cfcd130c",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/92cdb410d68c7b6ccb6eb38ad0ffe4e2d1cd9a2c",
+                "reference": "92cdb410d68c7b6ccb6eb38ad0ffe4e2d1cd9a2c",
                 "shasum": ""
             },
             "require": {
@@ -1437,7 +1452,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-30 08:33:58"
+            "time": "2013-10-31 16:40:24"
         },
         {
             "name": "symfony/dom-crawler",
@@ -1725,12 +1740,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afoeder/TYPO3.Asset.git",
-                "reference": "eb8468bbe6d1d3f68fd7add2b9fdb46416693a96"
+                "reference": "d534f429d15c2d0b0bc61961d85e012406b383a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/eb8468bbe6d1d3f68fd7add2b9fdb46416693a96",
-                "reference": "eb8468bbe6d1d3f68fd7add2b9fdb46416693a96",
+                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/d534f429d15c2d0b0bc61961d85e012406b383a7",
+                "reference": "d534f429d15c2d0b0bc61961d85e012406b383a7",
                 "shasum": ""
             },
             "require": {
@@ -1750,7 +1765,7 @@
                 "source": "https://github.com/afoeder/TYPO3.Asset/tree/master",
                 "issues": "https://github.com/afoeder/TYPO3.Asset/issues"
             },
-            "time": "2013-10-29 10:25:47"
+            "time": "2013-11-05 14:46:30"
         },
         {
             "name": "typo3/eel",
@@ -1782,12 +1797,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
-                "reference": "aca9ee5b41555f92395a9fd8ba5ac20f7fc067e1"
+                "reference": "17539165d3336ccbab2445f5b6ef54f2b8804fa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/aca9ee5b41555f92395a9fd8ba5ac20f7fc067e1",
-                "reference": "aca9ee5b41555f92395a9fd8ba5ac20f7fc067e1",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/17539165d3336ccbab2445f5b6ef54f2b8804fa5",
+                "reference": "17539165d3336ccbab2445f5b6ef54f2b8804fa5",
                 "shasum": ""
             },
             "require": {
@@ -1806,10 +1821,10 @@
             ],
             "description": "Package to expose models",
             "support": {
-                "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/refactor_processors",
+                "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
             },
-            "time": "2013-10-14 21:13:08"
+            "time": "2013-11-05 14:45:23"
         },
         {
             "name": "typo3/flow",
@@ -1817,7 +1832,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "e2e3ec4670e41bb89962dd41497f57c90af8f57c"
+                "reference": "3fd5ad97665cd1686a6147691455daf1435f3870"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -1849,7 +1864,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2013-10-29 14:49:43"
+            "time": "2013-11-03 09:16:29"
         },
         {
             "name": "typo3/fluid",
@@ -2059,7 +2074,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TypoScript.git",
-                "reference": "572d2382731a6d374ca0b8ae9e7b1a96a6cfd1ff"
+                "reference": "f87d6e0c8da525f0b04095bcc77f390014230a0e"
             },
             "require": {
                 "typo3/eel": "*",
@@ -2076,7 +2091,7 @@
                 "GPL-3.0+"
             ],
             "description": "TypoScript is a hierarchical, prototype based processing language",
-            "time": "2013-10-30 13:07:40"
+            "time": "2013-11-03 08:53:09"
         }
     ],
     "packages-dev": [
