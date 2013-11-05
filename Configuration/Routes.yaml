@@ -33,11 +33,11 @@
   appendExceedingArguments: true
 
 -
-  name: 'ADU'
-  uriPattern: '<ADUSubroutes>'
+  name: 'Satisfy'
+  uriPattern: '<SatisfySubroutes>'
   subRoutes:
-    ADUSubroutes:
-      package: Famelo.ADU
+    SatisfySubroutes:
+      package: Famelo.Satisfy
 
 -
   name: 'Features'

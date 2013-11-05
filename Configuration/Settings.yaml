@@ -9,9 +9,6 @@
 #                                                                        #
 
 TYPO3:
-  TypoScript:
-    debugMode: false
-    catchRuntimeExceptions: false
   Flow:
     session:
       inactivityTimeout: 9999999
