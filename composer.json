@@ -4,12 +4,24 @@
     "license": "GPL-3.0+",
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/TYPO3.Expose.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/afoeder/TYPO3.Asset.git"
+        },
+        {
             "type": "composer",
             "url": "http://ci.typo3.robertlemke.net/job/composer-packages/ws/repository/"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:mneuhaus/Famelo.ADU.git"
+            "url": "git@github.com:mneuhaus/Famelo.Satisfy.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:chlu/TYPO3.Jobqueue.Common.git"
         }
     ],
     "config": {
@@ -17,11 +29,11 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/flow": "dev-master",
-        "typo3/expose": "dev-master",
-        "typo3/kickstart": "dev-master",
-        "famelo/adu": "dev-master",
+        "typo3/flow": "*",
+        "typo3/expose": "*",
+        "typo3/kickstart": "*",
         "typo3/swiftmailer": "*",
+        "famelo/satisfy": "*",
         "community/cacheextensions": "*",
         "typo3/setup": "*",
         "fzaninotto/faker": "*",
@@ -29,7 +41,16 @@
         "famelo/scheduler": "*",
         "gChartPhp/gChartPhp": "*",
         "sandstorm/plumber": "*",
-        "famelo/features": "*"
+        "famelo/features": "*",
+        "famelo/impersonate": "*",
+        "flowpack/behat": "*",
+        "famelo/common": "*",
+        "twbs/bootstrap": "3.0.0",
+        "leafo/lessphp": "*",
+        "typo3/asset": "*",
+        "leafo/scssphp": "*",
+        "davidbadura/fixtures": "*",
+        "typo3/jobqueue-common": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
