@@ -41,16 +41,7 @@
         "famelo/scheduler": "*",
         "gChartPhp/gChartPhp": "*",
         "sandstorm/plumber": "*",
-        "famelo/features": "*",
-        "famelo/impersonate": "*",
-        "flowpack/behat": "*",
-        "famelo/common": "*",
-        "twbs/bootstrap": "3.0.0",
-        "leafo/lessphp": "*",
-        "typo3/asset": "*",
-        "leafo/scssphp": "*",
-        "davidbadura/fixtures": "*",
-        "typo3/jobqueue-common": "*"
+        "famelo/features": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
