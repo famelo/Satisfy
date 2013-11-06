@@ -1,5 +1,13 @@
-/Build/
-/Configuration/
+/Build
+/Build/BuildEssentials
+/Build/Phing
+/Build/Reports
+/Build/Resources
+/Configuration/Production/
+/Configuration/Staging/
+/Configuration/PackageStates.php
+/Configuration/README
+*.yaml.example
 /Data/
 /Packages/
 /Tests/Selenium/settings.xml
