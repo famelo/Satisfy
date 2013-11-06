@@ -22,10 +22,6 @@
         {
             "type": "vcs",
             "url": "git@github.com:chlu/TYPO3.Jobqueue.Common.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:mneuhaus/Fixtures.git"
         }
     ],
     "config": {
