@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "8f49cf76a0bb96a51614f5e111cd52d1",
+    "hash": "890f67d784d509616ba435a1512de8c3",
     "packages": [
         {
             "name": "community/cacheextensions",
@@ -110,13 +110,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mneuhaus/Fixtures.git",
-                "reference": "5dee551d9899ab15d53f605b9dff598a87741bf2"
+                "url": "https://github.com/DavidBadura/Fixtures.git",
+                "reference": "20971b671ee8e057d8f80cb0dce0c3688fec427e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Fixtures/zipball/5dee551d9899ab15d53f605b9dff598a87741bf2",
-                "reference": "5dee551d9899ab15d53f605b9dff598a87741bf2",
+                "url": "https://api.github.com/repos/DavidBadura/Fixtures/zipball/20971b671ee8e057d8f80cb0dce0c3688fec427e",
+                "reference": "20971b671ee8e057d8f80cb0dce0c3688fec427e",
                 "shasum": ""
             },
             "require": {
@@ -147,6 +147,7 @@
                     "DavidBadura\\Fixtures\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -168,10 +169,7 @@
                 "orm",
                 "yaml"
             ],
-            "support": {
-                "source": "https://github.com/mneuhaus/Fixtures/tree/master"
-            },
-            "time": "2013-11-05 16:29:18"
+            "time": "2013-11-06 10:28:11"
         },
         {
             "name": "doctrine/annotations",
@@ -914,12 +912,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "d86d97b6865617a4b6b8214077ceb8a8419328e9"
+                "reference": "151e308eca5486e77ec6d93d8ff75b92c5372995"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/d86d97b6865617a4b6b8214077ceb8a8419328e9",
-                "reference": "d86d97b6865617a4b6b8214077ceb8a8419328e9",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/151e308eca5486e77ec6d93d8ff75b92c5372995",
+                "reference": "151e308eca5486e77ec6d93d8ff75b92c5372995",
                 "shasum": ""
             },
             "require": {
@@ -946,7 +944,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2013-11-05 16:39:47"
+            "time": "2013-11-06 15:42:00"
         },
         {
             "name": "famelo/scheduler",
