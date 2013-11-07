@@ -780,12 +780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Common.git",
-                "reference": "15a58b2399129eec8a447f907a94a6997a6e532c"
+                "reference": "85cc889b153d82a580cc14b048af0e2898e33773"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/15a58b2399129eec8a447f907a94a6997a6e532c",
-                "reference": "15a58b2399129eec8a447f907a94a6997a6e532c",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/85cc889b153d82a580cc14b048af0e2898e33773",
+                "reference": "85cc889b153d82a580cc14b048af0e2898e33773",
                 "shasum": ""
             },
             "require": {
@@ -799,7 +799,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-11-06 20:19:02"
+            "time": "2013-11-07 14:46:04"
         },
         {
             "name": "famelo/features",
@@ -1738,12 +1738,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afoeder/TYPO3.Asset.git",
-                "reference": "d534f429d15c2d0b0bc61961d85e012406b383a7"
+                "reference": "fd8efae08eedbb78b5481bec97cd7d714fcb864b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/d534f429d15c2d0b0bc61961d85e012406b383a7",
-                "reference": "d534f429d15c2d0b0bc61961d85e012406b383a7",
+                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/fd8efae08eedbb78b5481bec97cd7d714fcb864b",
+                "reference": "fd8efae08eedbb78b5481bec97cd7d714fcb864b",
                 "shasum": ""
             },
             "require": {
@@ -1763,7 +1763,7 @@
                 "source": "https://github.com/afoeder/TYPO3.Asset/tree/master",
                 "issues": "https://github.com/afoeder/TYPO3.Asset/issues"
             },
-            "time": "2013-11-05 14:46:30"
+            "time": "2013-11-07 14:48:15"
         },
         {
             "name": "typo3/eel",
@@ -1795,12 +1795,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
-                "reference": "17539165d3336ccbab2445f5b6ef54f2b8804fa5"
+                "reference": "50e509ef751a0eb7c826a0f2d51c4a3b11ad1a72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/17539165d3336ccbab2445f5b6ef54f2b8804fa5",
-                "reference": "17539165d3336ccbab2445f5b6ef54f2b8804fa5",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/50e509ef751a0eb7c826a0f2d51c4a3b11ad1a72",
+                "reference": "50e509ef751a0eb7c826a0f2d51c4a3b11ad1a72",
                 "shasum": ""
             },
             "require": {
@@ -1822,7 +1822,7 @@
                 "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
             },
-            "time": "2013-11-05 14:45:23"
+            "time": "2013-11-07 15:13:46"
         },
         {
             "name": "typo3/flow",
