@@ -29,7 +29,7 @@ account:
 
 role:
   properties:
-    class: TYPO3\Flow\Security\Policy\role
+    class: TYPO3\Flow\Security\Policy\Role
     constructor: ['identifier']
   data:
     admin:
