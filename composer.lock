@@ -111,12 +111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/DavidBadura/Fixtures.git",
-                "reference": "20971b671ee8e057d8f80cb0dce0c3688fec427e"
+                "reference": "6d1dd89f8a34376a91a28e36ea9348ba5f123a46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DavidBadura/Fixtures/zipball/20971b671ee8e057d8f80cb0dce0c3688fec427e",
-                "reference": "20971b671ee8e057d8f80cb0dce0c3688fec427e",
+                "url": "https://api.github.com/repos/DavidBadura/Fixtures/zipball/6d1dd89f8a34376a91a28e36ea9348ba5f123a46",
+                "reference": "6d1dd89f8a34376a91a28e36ea9348ba5f123a46",
                 "shasum": ""
             },
             "require": {
@@ -169,7 +169,7 @@
                 "orm",
                 "yaml"
             ],
-            "time": "2013-11-06 10:28:11"
+            "time": "2013-11-06 22:11:10"
         },
         {
             "name": "doctrine/annotations",
