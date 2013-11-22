@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "890f67d784d509616ba435a1512de8c3",
+    "hash": "c36862c1c59fc7d5550d496b4f88b65a",
     "packages": [
         {
             "name": "community/cacheextensions",
@@ -911,8 +911,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mneuhaus/Famelo.Satisfy.git",
+                "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
                 "reference": "db7259c123e389c31ccfd510ac2c86a66a039c9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/db7259c123e389c31ccfd510ac2c86a66a039c9d",
+                "reference": "db7259c123e389c31ccfd510ac2c86a66a039c9d",
+                "shasum": ""
             },
             "require": {
                 "davidbadura/fixtures": "*",
@@ -933,6 +939,10 @@
                 "psr-0": {
                     "Famelo\\Satisfy": "Classes"
                 }
+            },
+            "support": {
+                "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
+                "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
             "time": "2013-11-22 11:29:10"
         },

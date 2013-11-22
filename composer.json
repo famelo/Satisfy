@@ -17,11 +17,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:mneuhaus/Famelo.Satisfy.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@github.com:chlu/TYPO3.Jobqueue.Common.git"
+            "url": "https://github.com/mneuhaus/Famelo.Satisfy.git"
         }
     ],
     "config": {
