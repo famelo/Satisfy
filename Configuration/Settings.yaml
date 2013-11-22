@@ -19,5 +19,14 @@ TYPO3:
       baseUri: http://satisfy.flow/
 
 Famelo:
-  Messaging:
-    redirectAllMessagesTo: mneuhaus@famelo.com
+  Satisfy:
+    Email:
+      "no-reply@cobus-kundenzufriedenheit.de": COBUS ConCept GmbH
+
+  Kundenbefragung:
+    E-Mails:
+      MoreInformation:
+        - mneuhaus@famelo.com
+
+  Impersonate:
+    Role: Famelo.Satisfy:Administrator
