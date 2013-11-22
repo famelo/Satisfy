@@ -14,3 +14,10 @@ TYPO3:
       inactivityTimeout: 9999999
     security:
         filters: []
+
+    http:
+      baseUri: http://satisfy.flow/
+
+Famelo:
+  Messaging:
+    redirectAllMessagesTo: mneuhaus@famelo.com

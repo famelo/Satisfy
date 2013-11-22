@@ -859,12 +859,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
-                "reference": "982da157c76ccdc0346cdfa6a255e03f1a8b94b1"
+                "reference": "dd211796f5d4968aa9ef1af91259cb869d9a5861"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/982da157c76ccdc0346cdfa6a255e03f1a8b94b1",
-                "reference": "982da157c76ccdc0346cdfa6a255e03f1a8b94b1",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/dd211796f5d4968aa9ef1af91259cb869d9a5861",
+                "reference": "dd211796f5d4968aa9ef1af91259cb869d9a5861",
                 "shasum": ""
             },
             "require": {
@@ -878,7 +878,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-11-05 14:48:31"
+            "time": "2013-11-22 11:21:05"
         },
         {
             "name": "famelo/navigation",
@@ -911,14 +911,8 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "951ccff58b8c3f79f1266855e4daf1121e07a5ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/951ccff58b8c3f79f1266855e4daf1121e07a5ad",
-                "reference": "951ccff58b8c3f79f1266855e4daf1121e07a5ad",
-                "shasum": ""
+                "url": "git@github.com:mneuhaus/Famelo.Satisfy.git",
+                "reference": "db7259c123e389c31ccfd510ac2c86a66a039c9d"
             },
             "require": {
                 "davidbadura/fixtures": "*",
@@ -940,11 +934,7 @@
                     "Famelo\\Satisfy": "Classes"
                 }
             },
-            "support": {
-                "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
-                "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
-            },
-            "time": "2013-11-07 21:17:44"
+            "time": "2013-11-22 11:29:10"
         },
         {
             "name": "famelo/scheduler",
@@ -1795,15 +1785,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
-                "reference": "50e509ef751a0eb7c826a0f2d51c4a3b11ad1a72"
+                "reference": "8941ef5144eb6fc96fed782332bc280ef151aa57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/50e509ef751a0eb7c826a0f2d51c4a3b11ad1a72",
-                "reference": "50e509ef751a0eb7c826a0f2d51c4a3b11ad1a72",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/8941ef5144eb6fc96fed782332bc280ef151aa57",
+                "reference": "8941ef5144eb6fc96fed782332bc280ef151aa57",
                 "shasum": ""
             },
             "require": {
+                "typo3/asset": "*",
                 "typo3/flow": "*",
                 "typo3/form": "*",
                 "typo3/typoscript": "*"
@@ -1822,7 +1813,7 @@
                 "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
             },
-            "time": "2013-11-07 15:13:46"
+            "time": "2013-11-22 11:29:49"
         },
         {
             "name": "typo3/flow",
