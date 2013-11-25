@@ -18,6 +18,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/mneuhaus/Famelo.Satisfy.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/Cobus.Satisfy.git"
         }
     ],
     "config": {
@@ -37,7 +41,8 @@
         "famelo/scheduler": "*",
         "gChartPhp/gChartPhp": "*",
         "sandstorm/plumber": "*",
-        "famelo/features": "*"
+        "famelo/features": "*",
+        "cobus/satisfy": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",

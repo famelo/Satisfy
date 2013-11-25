@@ -22,6 +22,8 @@ Famelo:
   Satisfy:
     Email:
       "no-reply@cobus-kundenzufriedenheit.de": COBUS ConCept GmbH
+    Logo: 'resource://Cobus.Satisfy/Public/COBUS logo.jpg'
+    Favicon: 'resource://Cobus.Satisfy/Public/favicon.ico'
 
   Kundenbefragung:
     E-Mails:

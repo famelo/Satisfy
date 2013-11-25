@@ -3,8 +3,37 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c36862c1c59fc7d5550d496b4f88b65a",
+    "hash": "943ff41e91ad6abbcf84fb3658d9ed71",
     "packages": [
+        {
+            "name": "cobus/satisfy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Cobus.Satisfy.git",
+                "reference": "d8dfdc853ba3eb3fe8d26e4381636cbc6532685f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Cobus.Satisfy/zipball/d8dfdc853ba3eb3fe8d26e4381636cbc6532685f",
+                "reference": "d8dfdc853ba3eb3fe8d26e4381636cbc6532685f",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Cobus\\Satisfy": "Classes"
+                }
+            },
+            "support": {
+                "source": "https://github.com/mneuhaus/Cobus.Satisfy/tree/master",
+                "issues": "https://github.com/mneuhaus/Cobus.Satisfy/issues"
+            },
+            "time": "2013-11-25 10:45:44"
+        },
         {
             "name": "community/cacheextensions",
             "version": "dev-master",
@@ -912,12 +941,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "d7d87759ba020e2b44a8b6445c2582f1979a8030"
+                "reference": "32b4ba8ca29eee848295dea1db364e167c6eebf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/d7d87759ba020e2b44a8b6445c2582f1979a8030",
-                "reference": "d7d87759ba020e2b44a8b6445c2582f1979a8030",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/32b4ba8ca29eee848295dea1db364e167c6eebf2",
+                "reference": "32b4ba8ca29eee848295dea1db364e167c6eebf2",
                 "shasum": ""
             },
             "require": {
@@ -944,7 +973,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2013-11-22 13:29:04"
+            "time": "2013-11-25 13:56:45"
         },
         {
             "name": "famelo/scheduler",
