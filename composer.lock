@@ -3,37 +3,8 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "943ff41e91ad6abbcf84fb3658d9ed71",
+    "hash": "35a75081e82e8b96c8e56434508da43f",
     "packages": [
-        {
-            "name": "cobus/satisfy",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mneuhaus/Cobus.Satisfy.git",
-                "reference": "d8dfdc853ba3eb3fe8d26e4381636cbc6532685f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Cobus.Satisfy/zipball/d8dfdc853ba3eb3fe8d26e4381636cbc6532685f",
-                "reference": "d8dfdc853ba3eb3fe8d26e4381636cbc6532685f",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/flow": "*"
-            },
-            "type": "typo3-flow-package",
-            "autoload": {
-                "psr-0": {
-                    "Cobus\\Satisfy": "Classes"
-                }
-            },
-            "support": {
-                "source": "https://github.com/mneuhaus/Cobus.Satisfy/tree/master",
-                "issues": "https://github.com/mneuhaus/Cobus.Satisfy/issues"
-            },
-            "time": "2013-11-25 10:45:44"
-        },
         {
             "name": "community/cacheextensions",
             "version": "dev-master",

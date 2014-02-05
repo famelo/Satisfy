@@ -41,8 +41,7 @@
         "famelo/scheduler": "*",
         "gChartPhp/gChartPhp": "*",
         "sandstorm/plumber": "*",
-        "famelo/features": "*",
-        "cobus/satisfy": "*"
+        "famelo/features": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
