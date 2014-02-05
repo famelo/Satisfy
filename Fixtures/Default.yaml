@@ -44,7 +44,7 @@ campaign:
       subject: 'Test'
       body: 'Test'
       intro: 'Test'
-      questions: ["@question:a", "@question:b", "@question:c", "@question:d", "@question:e", "@question:f" ]
+      questions: ["@question:a", "@question:b", "@question:c"]
 
 question:
   properties:
