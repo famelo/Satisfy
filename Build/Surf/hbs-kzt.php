@@ -15,7 +15,7 @@ $application->setHosting('Mittwald');
 $deployment->addApplication($application);
 
 $workflow = new SimpleWorkflow();
-// $workflow->setEnableRollback(FALSE);
+$workflow->setEnableRollback(FALSE);
 
 $workflow
 	->afterTask('typo3.surf:typo3:flow:copyconfiguration', array(
@@ -25,9 +25,9 @@ $workflow
 
 $deployment->setWorkflow($workflow);
 
-$node = new Node('p208340.webspaceconfig.de');
-$node->setHostname('p208340.webspaceconfig.de');
-$node->setOption('username', 'p208340');
+$node = new Node('hbs-kundenzufriedenheit.de');
+$node->setHostname('hbs-kundenzufriedenheit.de');
+$node->setOption('username', 'p216999');
 
 $application->addNode($node);
 $deployment->addApplication($application);

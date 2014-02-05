@@ -19,7 +19,7 @@ TYPO3:
         sqlLogger: 'TYPO3\Flow\Persistence\Doctrine\Logging\SqlLogger'
       backendOptions:
         driver: 'pdo_mysql'
-        dbname: 'flow-satisfy'
+        dbname: 'flow-hbs'
         user: 'main'
         password: 'main'
         host: 'localhost'

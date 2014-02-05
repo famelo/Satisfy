@@ -40,7 +40,7 @@ campaign:
     class: Famelo\Satisfy\Domain\Model\Campaign
   data:
     cobus:
-      name: "Cobus"
+      name: "HBS Test"
       subject: 'Test'
       body: 'Test'
       intro: 'Test'
@@ -51,27 +51,15 @@ question:
     class: Famelo\Satisfy\Domain\Model\Question
   data:
     a:
-      body: "Wie beurteilen Sie generell die Zusammenarbeit mit COBUS ConCept?"
+      body: "Wie sind Sie mit dem H.B.S. Personal zufrieden?"
       weight: 1
       type: 'Ampel'
     b:
-      body: "Wie gut fühlen Sie sich durch Ihren Bestandskundenmanager betreut?"
+      body: "Wie sind Sie mit dem H.B.S. Personal zufrieden?"
       weight: 1
       type: 'Ampel'
     c:
-      body: "Wie beurteilen Sie die Leistung unserer Berater vor Ort und per Fernwartung?"
-      weight: 1
-      type: 'Ampel'
-    d:
-      body: "Wie zufrieden sind Sie mit dem/den von COBUS ConCept eingesetzen Software-Lösungen?"
-      weight: 1
-      type: 'Ampel'
-    e:
-      body: "Würden Sie sich heute nochmals für die eingesetze/n Software-Lösung/en entscheiden?"
-      weight: 1
-      type: 'Ampel'
-    f:
-      body: "Würden Sie sich heute nochmals für die Zusammenarbeit mit COBUS ConCept entscheiden?"
+      body: "Wie sind Sie mit dem H.B.S. Personal zufrieden?"
       weight: 1
       type: 'Ampel'
 
@@ -79,7 +67,7 @@ customer:
   properties:
     class: Famelo\Satisfy\Domain\Model\Customer
     csv:
-      source: Cobus.csv
+      source: Users.csv
       headerRow: 0
   data:
     'customer<csv::columnSha1(0)>':
@@ -89,7 +77,7 @@ contact:
   properties:
     class: Famelo\Satisfy\Domain\Model\Contact
     csv:
-      source: Cobus.csv
+      source: Users.csv
       headerRow: 0
   data:
     contact{key}:
