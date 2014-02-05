@@ -12,6 +12,10 @@ $application->setOption('defaultContext', 'Production');
 $application->setOption('composerCommandPath', '/html/composer.phar');
 $application->setHosting('Mittwald');
 
+$application->setOption('packageMethod', 'git');
+$application->setOption('transferMethod', 'rsync');
+$application->setOption('updateMethod', NULL);
+
 $deployment->addApplication($application);
 
 $workflow = new SimpleWorkflow();

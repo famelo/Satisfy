@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "ccdc7300b38915cc374bb03c2d9d2367",
+    "hash": "0ac4794e4be5fef0663745cb574ff335",
     "packages": [
         {
             "name": "community/cacheextensions",
@@ -912,12 +912,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "3a848e6bf68b830eb764e6387cf9bd5c562fbe9b"
+                "reference": "751489e4253fc78f585024e9edc861de9ebcde17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/3a848e6bf68b830eb764e6387cf9bd5c562fbe9b",
-                "reference": "3a848e6bf68b830eb764e6387cf9bd5c562fbe9b",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/751489e4253fc78f585024e9edc861de9ebcde17",
+                "reference": "751489e4253fc78f585024e9edc861de9ebcde17",
                 "shasum": ""
             },
             "require": {
@@ -944,7 +944,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2014-02-05 13:31:45"
+            "time": "2014-02-05 14:43:52"
         },
         {
             "name": "famelo/scheduler",
