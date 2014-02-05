@@ -26,7 +26,10 @@
     ],
     "config": {
         "vendor-dir": "Packages/Libraries",
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "github-oauth": {
+            "github.com": "8ea95a891f97dd59ff773f1cca867ccda609503f"
+        }
     },
     "require": {
         "typo3/flow": "*",
