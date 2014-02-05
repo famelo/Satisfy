@@ -26,8 +26,7 @@
     ],
     "config": {
         "vendor-dir": "Packages/Libraries",
-        "bin-dir": "bin",
-        "preferred-install": "dist"
+        "bin-dir": "bin"
     },
     "require": {
         "typo3/flow": "*",
