@@ -15,7 +15,7 @@ $application->setHosting('Mittwald');
 $deployment->addApplication($application);
 
 $workflow = new SimpleWorkflow();
-$workflow->setEnableRollback(FALSE);
+// $workflow->setEnableRollback(FALSE);
 
 $workflow
 	->afterTask('typo3.surf:typo3:flow:copyconfiguration', array(
