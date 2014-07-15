@@ -1,0 +1,22 @@
+customer:
+  properties:
+    class: Famelo\Satisfy\Domain\Model\Customer
+    csv:
+      source: HBS_Contacts.csv
+      headerRow: 0
+  data:
+    'customer<csv::columnSha1(0)>':
+      name: '<csv::column(0)>'
+
+contact:
+  properties:
+    class: Famelo\Satisfy\Domain\Model\Contact
+    csv:
+      source: HBS_Contacts.csv
+      headerRow: 0
+  data:
+    contact{key}:
+      email: '<csv::column(1)>'
+      firstname: '<csv::column(2)>'
+      lastname: '<csv::column(3)>'
+      customer: '@customer:customer<csv::columnSha1(0)>'

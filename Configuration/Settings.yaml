@@ -21,8 +21,8 @@ TYPO3:
 Famelo:
   Satisfy:
     Email:
-      "no-reply@cobus-kundenzufriedenheit.de": COBUS ConCept GmbH
-    # Logo: 'resource://Cobus.Satisfy/Public/COBUS logo.jpg'
+      "no-reply@hbs-kundenzufriedenheit.de": HBS Industriedienste
+    Logo: 'http://dl.dropbox.com/u/314491/Screenshots/n6swgtkz6u0w.png'
     # Favicon: 'resource://Cobus.Satisfy/Public/favicon.ico'
 
   Kundenbefragung:
