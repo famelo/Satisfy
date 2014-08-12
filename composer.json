@@ -5,7 +5,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/mneuhaus/TYPO3.Expose.git"
+            "url": "https://github.com/mneuhaus/Flowpack.Expose.git"
         },
         {
             "type": "vcs",
