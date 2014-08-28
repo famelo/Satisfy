@@ -2,7 +2,8 @@
 	"TYPO3.Flow": {
 		"[WIP][FEATURE] Add a way to clear caches by Path + FilePattern": "25078",
 		"[WIP][FEATURE] Automatically move generated migration to package": "23068",
-		"[WIP][FEATURE] Add an isDefaultView matcher for ViewConfiguration": "25147"
+		"[WIP][FEATURE] Add an isDefaultView matcher for ViewConfiguration": "25147",
+		"[FEATURE] Support injecting Settings through annotation": "25246"
 	},
 	"TYPO3.Party": {
 		"[BUGFIX] Add cascade persist to AbstractParty": "25024"

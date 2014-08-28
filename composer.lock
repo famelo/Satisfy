@@ -860,12 +860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
-                "reference": "dd211796f5d4968aa9ef1af91259cb869d9a5861"
+                "reference": "bb94459c14b8ff7549bdcb22874132ec7a56cf4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/dd211796f5d4968aa9ef1af91259cb869d9a5861",
-                "reference": "dd211796f5d4968aa9ef1af91259cb869d9a5861",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/bb94459c14b8ff7549bdcb22874132ec7a56cf4c",
+                "reference": "bb94459c14b8ff7549bdcb22874132ec7a56cf4c",
                 "shasum": ""
             },
             "require": {
@@ -879,7 +879,15 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-11-22 11:21:05"
+            "authors": [
+                {
+                    "name": "Marc Neuhaus",
+                    "email": "apocalip@gmail.com"
+                }
+            ],
+            "description": "Little helper to send Messages with SwiftMailer rendered through Fluid.",
+            "homepage": "https://github.com/mneuhaus/Famelo.Messaging",
+            "time": "2014-08-28 15:39:34"
         },
         {
             "name": "famelo/navigation",
@@ -913,12 +921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "b341494567fc8337bd7d62e35d17bc0f2ca17396"
+                "reference": "e85861c3f9ae74a7248bc338b5778d9c62f26a21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/b341494567fc8337bd7d62e35d17bc0f2ca17396",
-                "reference": "b341494567fc8337bd7d62e35d17bc0f2ca17396",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/e85861c3f9ae74a7248bc338b5778d9c62f26a21",
+                "reference": "e85861c3f9ae74a7248bc338b5778d9c62f26a21",
                 "shasum": ""
             },
             "require": {
@@ -945,7 +953,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2014-08-12 22:03:58"
+            "time": "2014-08-28 15:39:57"
         },
         {
             "name": "famelo/scheduler",
@@ -2207,6 +2215,7 @@
         "typo3/surf": 20,
         "famelo/surf-sharedhosting": 20
     },
+    "prefer-stable": false,
     "platform": [
 
     ],
