@@ -921,12 +921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "336bce4f64ed81ee75c9e2a3fc1d40fe35e3fa93"
+                "reference": "8971cd78c649343071c140adf129e6f845073efb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/336bce4f64ed81ee75c9e2a3fc1d40fe35e3fa93",
-                "reference": "336bce4f64ed81ee75c9e2a3fc1d40fe35e3fa93",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/8971cd78c649343071c140adf129e6f845073efb",
+                "reference": "8971cd78c649343071c140adf129e6f845073efb",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +953,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2014-09-30 12:40:19"
+            "time": "2014-09-30 14:07:23"
         },
         {
             "name": "famelo/scheduler",
