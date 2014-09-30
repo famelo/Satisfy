@@ -16,7 +16,7 @@ contact:
       headerRow: 0
   data:
     contact{key}:
-      email: '<csv::column(1)>'
-      firstname: '<csv::column(2)>'
-      lastname: '<csv::column(3)>'
+      firstname: '<csv::column(1)>'
+      lastname: '<csv::column(2)>'
+      email: '<csv::column(3)>'
       customer: '@customer:customer<csv::columnSha1(0)>'

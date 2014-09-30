@@ -860,12 +860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
-                "reference": "bb94459c14b8ff7549bdcb22874132ec7a56cf4c"
+                "reference": "3d912f728087f250f0648101d38378b1b99132dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/bb94459c14b8ff7549bdcb22874132ec7a56cf4c",
-                "reference": "bb94459c14b8ff7549bdcb22874132ec7a56cf4c",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/3d912f728087f250f0648101d38378b1b99132dd",
+                "reference": "3d912f728087f250f0648101d38378b1b99132dd",
                 "shasum": ""
             },
             "require": {
@@ -887,7 +887,7 @@
             ],
             "description": "Little helper to send Messages with SwiftMailer rendered through Fluid.",
             "homepage": "https://github.com/mneuhaus/Famelo.Messaging",
-            "time": "2014-08-28 15:39:34"
+            "time": "2014-09-30 13:25:31"
         },
         {
             "name": "famelo/navigation",
@@ -921,12 +921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "e85861c3f9ae74a7248bc338b5778d9c62f26a21"
+                "reference": "336bce4f64ed81ee75c9e2a3fc1d40fe35e3fa93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/e85861c3f9ae74a7248bc338b5778d9c62f26a21",
-                "reference": "e85861c3f9ae74a7248bc338b5778d9c62f26a21",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/336bce4f64ed81ee75c9e2a3fc1d40fe35e3fa93",
+                "reference": "336bce4f64ed81ee75c9e2a3fc1d40fe35e3fa93",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +953,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2014-08-28 15:39:57"
+            "time": "2014-09-30 12:40:19"
         },
         {
             "name": "famelo/scheduler",
