@@ -44,7 +44,8 @@
         "gChartPhp/gChartPhp": "*",
         "famelo/features": "dev-master#f8d8549c719109467aef149cd8f71adc2d838018",
         "typo3/fluid": "dev-master#13274ce8af241e41d72b2d81e1048241f5acbe9e",
-        "typo3/typoscript": "dev-master#f87d6e0c8da525f0b04095bcc77f390014230a0e"
+        "typo3/typoscript": "dev-master#f87d6e0c8da525f0b04095bcc77f390014230a0e",
+        "typo3/asset": "dev-master#fd8efae08eedbb78b5481bec97cd7d714fcb864b"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",

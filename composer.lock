@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dafdafd9c2bf961427a4eaf982176998",
+    "hash": "cff9a1505659849d15e49b0220109e21",
     "packages": [
         {
             "name": "community/cacheextensions",
@@ -1788,12 +1788,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afoeder/TYPO3.Asset.git",
-                "reference": "ca87c7233965f8d8f04596230d0b237223b0d2f2"
+                "reference": "fd8efae08eedbb78b5481bec97cd7d714fcb864b"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/ca87c7233965f8d8f04596230d0b237223b0d2f2",
-                "reference": "ca87c7233965f8d8f04596230d0b237223b0d2f2",
+                "reference": "fd8efae08eedbb78b5481bec97cd7d714fcb864b",
                 "shasum": ""
             },
             "require": {
@@ -1813,7 +1813,7 @@
                 "source": "https://github.com/afoeder/TYPO3.Asset/tree/master",
                 "issues": "https://github.com/afoeder/TYPO3.Asset/issues"
             },
-            "time": "2014-06-12 23:25:23"
+            "time": "2013-11-07 14:48:15"
         },
         {
             "name": "typo3/eel",
@@ -2199,6 +2199,7 @@
         "famelo/features": 20,
         "typo3/fluid": 20,
         "typo3/typoscript": 20,
+        "typo3/asset": 20,
         "typo3/buildessentials": 20,
         "typo3/surf": 20,
         "famelo/surf-sharedhosting": 20
