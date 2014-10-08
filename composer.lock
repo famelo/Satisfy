@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cff9a1505659849d15e49b0220109e21",
+    "hash": "ab543436a4971a69137f0dfc5b3cc322",
     "packages": [
         {
             "name": "community/cacheextensions",
@@ -1192,12 +1192,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/leafo/lessphp.git",
-                "reference": "011afcca8e6f1000a6e789921ba805fa578271a3"
+                "reference": "bc4f33b4bfc889018ebe53611050729641b82dc6"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/leafo/lessphp/zipball/011afcca8e6f1000a6e789921ba805fa578271a3",
-                "reference": "011afcca8e6f1000a6e789921ba805fa578271a3",
+                "reference": "bc4f33b4bfc889018ebe53611050729641b82dc6",
                 "shasum": ""
             },
             "type": "library",
@@ -1225,7 +1225,7 @@
             ],
             "description": "lessphp is a compiler for LESS written in PHP.",
             "homepage": "http://leafo.net/lessphp/",
-            "time": "2014-04-27 02:56:30"
+            "time": "2013-10-17 16:23:00"
         },
         {
             "name": "leafo/scssphp",
@@ -2200,6 +2200,7 @@
         "typo3/fluid": 20,
         "typo3/typoscript": 20,
         "typo3/asset": 20,
+        "leafo/lessphp": 20,
         "typo3/buildessentials": 20,
         "typo3/surf": 20,
         "famelo/surf-sharedhosting": 20
