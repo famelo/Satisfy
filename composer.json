@@ -38,7 +38,6 @@
         "typo3/swiftmailer": "dev-master#6537ea19ea4b7a17fa727fd96d83f6ce4993337d",
         "famelo/satisfy": "*",
         "community/cacheextensions": "*",
-        "typo3/setup": "*",
         "fzaninotto/faker": "*",
         "famelo/navigation": "dev-master#6faaec71742741f4f3291b07a497ff9ae1de1127",
         "famelo/scheduler": "dev-master#8d2e6024f4400cc92575c98b5d2d54a15f0e9e62",
