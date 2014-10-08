@@ -781,16 +781,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Common.git",
-                "reference": "85cc889b153d82a580cc14b048af0e2898e33773"
+                "reference": "d55416d4b0828f889cdb166a8bc9f2d9b727fb4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/85cc889b153d82a580cc14b048af0e2898e33773",
-                "reference": "85cc889b153d82a580cc14b048af0e2898e33773",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/d55416d4b0828f889cdb166a8bc9f2d9b727fb4f",
+                "reference": "d55416d4b0828f889cdb166a8bc9f2d9b727fb4f",
                 "shasum": ""
             },
             "require": {
                 "davidbadura/fixtures": "*",
+                "fzaninotto/faker": "*",
                 "typo3/flow": "*"
             },
             "type": "typo3-flow-package",
@@ -800,7 +801,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-11-07 14:46:04"
+            "time": "2014-08-15 07:54:59"
         },
         {
             "name": "famelo/features",
@@ -921,12 +922,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "8971cd78c649343071c140adf129e6f845073efb"
+                "reference": "25c455b8cff383ec626c1d0ad2b54fd517f05d71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/8971cd78c649343071c140adf129e6f845073efb",
-                "reference": "8971cd78c649343071c140adf129e6f845073efb",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/25c455b8cff383ec626c1d0ad2b54fd517f05d71",
+                "reference": "25c455b8cff383ec626c1d0ad2b54fd517f05d71",
                 "shasum": ""
             },
             "require": {
@@ -953,7 +954,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2014-09-30 14:07:23"
+            "time": "2014-10-08 09:15:28"
         },
         {
             "name": "famelo/scheduler",
