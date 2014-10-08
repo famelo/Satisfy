@@ -8,15 +8,34 @@ $application->setOption('repositoryUrl', 'git://github.com/famelo/Satisfy.git');
 $application->setDeploymentPath('/html/kzt');
 $application->setOption('keepReleases', 3);
 
+// $application->setOption('defaultContext', 'Production');
+// $application->setOption('composerCommandPath', 'php_cli /html/composer.phar');
+// $application->setHosting('Mittwald');
+
+// // $application->setOption('packageMethod', 'git');
+// // $application->setOption('transferMethod', 'rsync');
+// // $application->setOption('updateMethod', NULL);
+
+// $deployment->addApplication($application);
+
 $application->setOption('defaultContext', 'Production');
-$application->setOption('composerCommandPath', '/html/composer.phar');
+$application->setOption('composerCommandPath', 'composer');
 $application->setHosting('Mittwald');
 
-// $application->setOption('packageMethod', 'git');
-// $application->setOption('transferMethod', 'rsync');
-// $application->setOption('updateMethod', NULL);
+$application->setOption('transferMethod', 'rsync');
+$application->setOption('packageMethod', 'git');
+$application->setOption('updateMethod', NULL);
 
 $deployment->addApplication($application);
+
+$workflow = new SimpleWorkflow();
+$workflow->setEnableRollback(FALSE);
+
+$workflow
+	->afterTask('typo3.surf:typo3:flow:copyconfiguration', array(
+		'famelo.surf.sharedhosting:downloadbeard',
+		'famelo.surf.sharedhosting:beardpatch'
+	), $application);
 
 $workflow = new SimpleWorkflow();
 // $workflow->setEnableRollback(FALSE);
