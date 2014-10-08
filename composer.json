@@ -1,6 +1,6 @@
 {
     "name": "famelo/distribution-satisfy",
-    "description" : "Customer Satisfaction Management",
+    "description": "Customer Satisfaction Management",
     "license": "GPL-3.0+",
     "repositories": [
         {
@@ -32,19 +32,20 @@
         }
     },
     "require": {
-        "typo3/flow": "*",
-        "typo3/expose": "*",
+        "typo3/flow": "dev-master#3fd5ad97665cd1686a6147691455daf1435f3870",
+        "typo3/expose": "dev-master#8941ef5144eb6fc96fed782332bc280ef151aa57",
         "typo3/kickstart": "*",
-        "typo3/swiftmailer": "*",
+        "typo3/swiftmailer": "dev-master#6537ea19ea4b7a17fa727fd96d83f6ce4993337d",
         "famelo/satisfy": "*",
         "community/cacheextensions": "*",
         "typo3/setup": "*",
         "fzaninotto/faker": "*",
-        "famelo/navigation": "*",
-        "famelo/scheduler": "*",
+        "famelo/navigation": "dev-master#6faaec71742741f4f3291b07a497ff9ae1de1127",
+        "famelo/scheduler": "dev-master#8d2e6024f4400cc92575c98b5d2d54a15f0e9e62",
         "gChartPhp/gChartPhp": "*",
-        "sandstorm/plumber": "*",
-        "famelo/features": "*"
+        "famelo/features": "dev-master#f8d8549c719109467aef149cd8f71adc2d838018",
+        "typo3/fluid": "dev-master#13274ce8af241e41d72b2d81e1048241f5acbe9e",
+        "typo3/typoscript": "dev-master#f87d6e0c8da525f0b04095bcc77f390014230a0e"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",

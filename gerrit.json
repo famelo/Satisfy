@@ -1,6 +1,6 @@
 {
 	"TYPO3.Flow": {
-		"[WIP][FEATURE] Add a way to clear caches by Path + FilePattern": "25078",
+		"[WIP][FEATURE] Add a way to clear caches by Path + FilePattern": "25078,6",
 		"[WIP][FEATURE] Add an isDefaultView matcher for ViewConfiguration": "25147",
 		"[FEATURE] Support injecting Settings through annotation": "25246"
 	},
