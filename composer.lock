@@ -934,12 +934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Satisfy.git",
-                "reference": "755eecef53172c4c4cfe5c12cb7231b4f8f57e50"
+                "reference": "26e6e2366ff7bff6d05603ceaed353a539eef06d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/755eecef53172c4c4cfe5c12cb7231b4f8f57e50",
-                "reference": "755eecef53172c4c4cfe5c12cb7231b4f8f57e50",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Satisfy/zipball/26e6e2366ff7bff6d05603ceaed353a539eef06d",
+                "reference": "26e6e2366ff7bff6d05603ceaed353a539eef06d",
                 "shasum": ""
             },
             "require": {
@@ -948,7 +948,6 @@
                 "famelo/impersonate": "*",
                 "famelo/messaging": "*",
                 "famelo/vodoo": "*",
-                "leafo/lessphp": "*",
                 "leafo/scssphp": "*",
                 "twbs/bootstrap": "3.0.0",
                 "typo3/asset": "*",
@@ -965,7 +964,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Satisfy/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Satisfy/issues"
             },
-            "time": "2014-10-08 13:21:04"
+            "time": "2014-10-13 09:04:37"
         },
         {
             "name": "famelo/scheduler",
@@ -1288,12 +1287,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mtdowling/cron-expression.git",
-                "reference": "d98242d95f82a0e4fca8b402a75daecc64fc3499"
+                "reference": "16278e5a42df0f9ee2fa6f38b91f682c52da50ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/d98242d95f82a0e4fca8b402a75daecc64fc3499",
-                "reference": "d98242d95f82a0e4fca8b402a75daecc64fc3499",
+                "url": "https://api.github.com/repos/mtdowling/cron-expression/zipball/16278e5a42df0f9ee2fa6f38b91f682c52da50ff",
+                "reference": "16278e5a42df0f9ee2fa6f38b91f682c52da50ff",
                 "shasum": ""
             },
             "require": {
@@ -1324,66 +1323,7 @@
                 "cron",
                 "schedule"
             ],
-            "time": "2014-09-02 06:17:31"
-        },
-        {
-            "name": "oyejorge/less.php",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/oyejorge/less.php.git",
-                "reference": "0751741c0c25a506bfedb6569172e87d57832a20"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/0751741c0c25a506bfedb6569172e87d57832a20",
-                "reference": "0751741c0c25a506bfedb6569172e87d57832a20",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "bin": [
-                "bin/lessc"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Less": "lib/"
-                },
-                "classmap": [
-                    "lessc.inc.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Matt Agar",
-                    "homepage": "https://github.com/agar"
-                },
-                {
-                    "name": "Martin Jantošovič",
-                    "homepage": "https://github.com/Mordred"
-                },
-                {
-                    "name": "Josh Schmidt",
-                    "homepage": "https://github.com/oyejorge"
-                }
-            ],
-            "description": "PHP port of the Javascript version of LESS http://lesscss.org",
-            "homepage": "http://lessphp.gpeasy.com",
-            "keywords": [
-                "css",
-                "less",
-                "less.js",
-                "lesscss",
-                "php",
-                "stylesheet"
-            ],
-            "time": "2014-07-19 21:51:20"
+            "time": "2014-10-11 20:18:01"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1798,8 +1738,6 @@
             },
             "require": {
                 "kriswallsmith/assetic": "*",
-                "leafo/scssphp": "*",
-                "oyejorge/less.php": "*",
                 "typo3/flow": "*"
             },
             "type": "typo3-flow-package",
